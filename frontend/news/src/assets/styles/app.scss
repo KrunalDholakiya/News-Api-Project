@@ -1,0 +1,28 @@
+@import "vars";
+@import "base";
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  .header-icon {
+    height: 54px;
+  }
+  .header-title {
+    font-size: 24px;
+    margin-left: 10px;
+  }
+}
+.divider {
+  width: 20px;
+  border: 1px solid #585858;
+}
+.tab-container {
+  padding: 20px;
+}
+.ant-avatar {
+  height: 100px !important;
+  width: 100px !important;
+  border-radius: 0px !important;
+}
